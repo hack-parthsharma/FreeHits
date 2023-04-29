@@ -41,7 +41,7 @@ const Footer = () => {
               className="footer-link"
             >
             {' '}
-            Hiren and Parth Sharma
+            {/* Hiren and Parth Sharma */}
             </a>
         ))
       </div>
