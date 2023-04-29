@@ -5,8 +5,7 @@ const Header = ({ searchTerm, setSearchTerm }) => {
   return (
     <header className="title-bar" name="Top">
       <h1>
-        <img className="logo" src={freehitlogo} alt="My Image" />
-        FREE-HIT
+        Feed Freebies
       </h1>
       <ul className="hnav-links">
         <li>
