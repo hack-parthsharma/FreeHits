@@ -33,21 +33,18 @@ const Footer = () => {
           </a>
         </p>
       </div>
-      <ul className="fot-links">
-        {footerLinks.map(({ id, link, name, icon }) => (
-          <li key={id}>
+      <div className="footer">
             <a
               href="https://twitter.com/hirensharmaji"
               target="_blank"
               rel="noreferrer"
-              className="fot-link"
+              className="footer-link"
             >
-              {icon}
-              {name}
+            {' '}
+            Hiren and Parth Sharma
             </a>
-          </li>
-        ))}
-      </ul>
+        ))
+      </div>
     </div>
   )
 }
